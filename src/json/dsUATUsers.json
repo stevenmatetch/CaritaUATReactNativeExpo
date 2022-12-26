@@ -1,0 +1,242 @@
+{"dsUATUsers": {
+  "UATUser-tt": [
+    {
+      "OprPNr": 1,
+      "OprPId": "CARE",
+      "Dsc": "Boss, Andreas",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 839,
+      "OprPId": "DQ",
+      "Dsc": "Qvick, Donald",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 840,
+      "OprPId": "AB",
+      "Dsc": "Boss, Andreas",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1686,
+      "OprPId": "BL",
+      "Dsc": "Lundqvist, Bodil",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1696,
+      "OprPId": "PJ",
+      "Dsc": "Jönsson, Paul",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1697,
+      "OprPId": "PeSv2",
+      "Dsc": "Svesson, Peter",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1698,
+      "OprPId": "AnBa",
+      "Dsc": "Barnard, Anna-Carin",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1792,
+      "OprPId": "ClQv",
+      "Dsc": "Qvist, Donald",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1931,
+      "OprPId": "PeSv",
+      "Dsc": "Svensson, Peter",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 1949,
+      "OprPId": "BÖ",
+      "Dsc": "Öman, Berit",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2156,
+      "OprPId": "TESTPJ",
+      "Dsc": "TEST, PJ",
+      "LevelMod": "W",
+      "PwdChk": "fsebbbdcuEhayadw"
+    },
+    {
+      "OprPNr": 2157,
+      "OprPId": "11",
+      "Dsc": ",",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2189,
+      "OprPId": "PS",
+      "Dsc": "Pontus, Strömblad",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2190,
+      "OprPId": "1AnBa",
+      "Dsc": "1Anna-Carin1,",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2196,
+      "OprPId": "AllaAB",
+      "Dsc": "AllaAnna-CarinAlla,",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2254,
+      "OprPId": "Test",
+      "Dsc": "Test ingen personal, Ej personal",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2274,
+      "OprPId": "pajo",
+      "Dsc": ",",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2278,
+      "OprPId": "PFS",
+      "Dsc": "Strömdahl, Pontus",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2317,
+      "OprPId": "PJA",
+      "Dsc": "Allmän, Allmän",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2318,
+      "OprPId": "PJS",
+      "Dsc": "Specialist, Specialist",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2356,
+      "OprPId": "xx",
+      "Dsc": "claes,",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2357,
+      "OprPId": "xxx",
+      "Dsc": "a,",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 2685,
+      "OprPId": "AllimR",
+      "Dsc": "Ruda, Allim",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2690,
+      "OprPId": "EJ",
+      "Dsc": "Jönsson, Eva",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2740,
+      "OprPId": "IH",
+      "Dsc": "Hulthén, Ingela",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2890,
+      "OprPId": "Ingen",
+      "Dsc": ",",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2895,
+      "OprPId": "EB",
+      "Dsc": "Bengtsson, Estelle",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2896,
+      "OprPId": "SB",
+      "Dsc": "Bengtsson, Stellan",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2915,
+      "OprPId": "BB",
+      "Dsc": "Bengtssonq, Bo",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2927,
+      "OprPId": "ts",
+      "Dsc": "Svensson, Timo",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2970,
+      "OprPId": "AJ",
+      "Dsc": "Jönsson, Ann",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 2992,
+      "OprPId": "ES",
+      "Dsc": "Ester, Svan",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    },
+    {
+      "OprPNr": 3339,
+      "OprPId": "chca03",
+      "Dsc": "Carlson, Christina",
+      "LevelMod": "W",
+      "PwdChk": ""
+    },
+    {
+      "OprPNr": 3641,
+      "OprPId": "dafr",
+      "Dsc": "Fridhed, Daniel",
+      "LevelMod": "W",
+      "PwdChk": "ihlqnijpCdaaEnbW"
+    }
+  ]
+}}
