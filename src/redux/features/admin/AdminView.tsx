@@ -23,7 +23,8 @@ const styles = StyleSheet.create({  view: {
     backgroundColor: "aliceblue",
     alignItems: "center",
     justifyContent: "center"
-  }, font: {
+  },
+   font: {
     fontWeight: "bold",
     fontSize: 15
   }})

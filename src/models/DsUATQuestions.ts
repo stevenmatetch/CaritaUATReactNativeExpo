@@ -20,11 +20,11 @@
         Dsc: string;
         Txt: string;
         Typ: string;
-        OhaR_tt: OhaRTt[];
+        "OhaR-tt": OhaRTt[];
     }
 
     export interface DsUATQuestions {
-        OhaP_tt: OhaPTt[];
+        "OhaP-tt": OhaPTt[];
     }
 
     export interface RootObject {

@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import HomeView from './src/redux/features/home/HomeView';
-import AboutView from './src/redux/features/about/AboutView';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AdminView from './src/redux/features/admin/AdminView';
 import { NavigationContainer } from '@react-navigation/native';
@@ -16,7 +15,6 @@ export default function App() {
     <Tab.Screen name="Hem" component={HomeView} />
     <Tab.Screen name="Bedömningar" component={HealthCardsView} />
     <Tab.Screen name="Adminstration" component={AdminView} />
-    <Tab.Screen name="Om" component={AboutView} />
   </Tab.Navigator>
   </NavigationContainer>
   );
