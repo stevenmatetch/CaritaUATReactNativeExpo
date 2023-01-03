@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import CustomInput from "../../../customInput/CustomInput";
 import React, { useState, useEffect } from "react";
-import dsUATQuestionsJson from "./../../../json/dsUATQuestions.json";
+import dsUATQuestionsJson from "../../../json/dsUATQuestions.json";
 import { DsUATUsers } from "../../../models/DsUATUsers";
 import DsUATAppData from "../../../json/dsUATAppData.json";
 import { Patient } from "../../../models/Patient";
@@ -15,8 +15,7 @@ import { Enumerable } from "sharp-collections";
 import { Survey } from "../../../models/Survey";
 import { useNavigation } from "@react-navigation/native";
 
-let loadedPatient: Patient[] = [];
-const HealthCardsView = () => {
+const PatientView = () => {
   const [boende, setBoende] = useState("");
   const [pnr, SetPnr] = useState("");
   const [dsc, SetDsc] = useState("");
@@ -30,25 +29,20 @@ const HealthCardsView = () => {
     console.log(data.dsUATQuestions);
   }
   */
+  const { navigate } = useNavigation<Nav>();
+  type Nav = {
+    navigate: (value: string, item: Patient) => void;
+  };
 
-  function HandleNavigation(values: string) {
-    console.log(values)
-    console.log(1);
-    const { navigate } = useNavigation<Nav>();
-    type Nav = {
-      navigate: (value: string) => void;
-    };
-    console.log(2);
-    console.log(values);
-    return (
-    navigate(values)
-    )
+  function HandleNavigation(values: string, patient: Patient) {
+    return navigate(values, patient);
   }
 
   async function GetDsUATAppData() {
     const data = DsUATAppData;
     data.dsUATAppData;
     const patList = data.dsUATAppData["AcmP-tt"][0]["Patient-tt"];
+
     setBoende(data.dsUATAppData["AcmP-tt"][0].Dsc);
     //  console.log(patList);
 
@@ -60,7 +54,7 @@ const HealthCardsView = () => {
       for (const survey of surveys) {
         thisPatientSurveys.push(survey as any);
       }
-      
+
       const patient = new Patient(
         patList[i].Dsc,
         patList[i].PNR,
@@ -69,14 +63,12 @@ const HealthCardsView = () => {
 
       patients.push(patient);
     }
-    console.log(patients);
 
     SetData(patients);
   }
 
   useEffect(() => {
     GetDsUATAppData();
-    //GetdsUATQuestions();
   }, []);
 
   const RenderItem = ({ item }: { item: Patient }) => {
@@ -84,7 +76,7 @@ const HealthCardsView = () => {
       <View>
         <TouchableOpacity
           style={styles.item}
-          onPress={() => HandleNavigation("Adminstration")}
+          onPress={() => HandleNavigation("Bedömningar", item)}
         >
           <Text>{item.pNR}</Text>
           <Text>{item.dsc}</Text>
@@ -94,8 +86,8 @@ const HealthCardsView = () => {
   };
 
   return (
-    <View>
-      <View style={styles.view}>
+    <View style={styles.view}>
+      <View style={styles.view1}>
         <CustomInput
           placeholder="Sök.."
           value={""}
@@ -113,11 +105,15 @@ const HealthCardsView = () => {
   );
 };
 
-export default HealthCardsView;
+export default PatientView;
 
 const styles = StyleSheet.create({
+  view1: {
+    paddingTop: 20,
+    alignItems: "center",
+    justifyContent: "center",
+  },
   view: {
-    flex: 1,
     backgroundColor: "aliceblue",
     alignItems: "center",
     justifyContent: "center",

@@ -2,12 +2,12 @@ export interface SurveyAnswer {
     surveyAnswersNrInternal: number;
     seqLNr: number;
     subNr: number;
-    dsc: string;
-    ohaTyp: string;
+    Dsc: string;
+    OhaTyp: string;
     prmLog: boolean;
     prmDec: number;
     prmDat: string | null;
-    prmChr: string;
+    PrmChr: string;
     txt: string;
     keyWrd: string;
     selList: string;

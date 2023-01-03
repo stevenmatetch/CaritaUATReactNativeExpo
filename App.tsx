@@ -4,19 +4,24 @@ import HomeView from './src/redux/features/home/HomeView';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import AdminView from './src/redux/features/admin/AdminView';
 import { NavigationContainer } from '@react-navigation/native';
-import HealthCardsView from './src/redux/features/healthCards/HealthCardsView';
 
-const Tab = createBottomTabNavigator();
+import HealthCardPatientView from './src/redux/features/healthCardPatient/HealthCardPatientView';
+import SurveyEditView from './src/redux/surveyEdit/SurveyEditView';
+import LoggaInView from './src/redux/features/loggaIn/LoggaInView';
+import React from 'react';
+import { selectIsLoggedIn } from './src/redux/features/loggaIn/UserAuthSlice';
+import AppRoute from "./src/navigation/navigator";
+import { Provider } from "react-redux";
+import { store } from "./src/redux/Store";
+
 
 export default function App() {
   return (
-    <NavigationContainer>
-    <Tab.Navigator>
-    <Tab.Screen name="Hem" component={HomeView} />
-    <Tab.Screen name="Bedömningar" component={HealthCardsView} />
-    <Tab.Screen name="Adminstration" component={AdminView} />
-  </Tab.Navigator>
-  </NavigationContainer>
+    <NavigationContainer >
+    <Provider store={store}>
+      <AppRoute />
+      </Provider>
+    </NavigationContainer>
   );
 }
 
@@ -39,3 +44,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+
